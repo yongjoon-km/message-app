@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const HelloWorld = () => {
+const App = () => {
     return (
         <h1>
             Hello World
@@ -9,4 +9,4 @@ const HelloWorld = () => {
     );
 }
 
-ReactDOM.render(<HelloWorld />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
